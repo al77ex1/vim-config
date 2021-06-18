@@ -7,6 +7,8 @@ call plug#begin('~/.vim/plugged')
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'preservim/nerdtree' " Usefull filetree
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'junegunn/fzf.vim' " File search
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " File searhcing
 Plug 'majutsushi/tagbar' " Tag bar for showing opened files
@@ -14,13 +16,19 @@ Plug 'vim-airline/vim-airline' " Navbar with usefull information (git/formatting
 Plug 'tomtom/tcomment_vim' " Fast comment current line or block
 Plug 'Yggdroot/indentLine' " Hightlighting for indents
 Plug 'tmhedberg/SimpylFold' " Simple folding blocks of code
-Plug 'SirVer/ultisnips' " Snippets
+" Plug 'SirVer/ultisnips' " Snippets
 Plug 'honza/vim-snippets' " snipets engine
 Plug 'wakatime/vim-wakatime' " Time checker for productivity increasing ;)
 Plug 'frazrepo/vim-rainbow' " Different color highlighting for brackets
 Plug 'tpope/vim-surround' " Helpful utility for sorround text`s blocks
 Plug 'kshenoy/vim-signature' " Hightlight and visualisation for marks
 Plug 'wsdjeg/vim-todo' "Todo list
+Plug 'vim-scripts/mru.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'vim-scripts/vim-auto-save'
+Plug 'jiangmiao/auto-pairs'
+Plug 'valloric/MatchTagAlways'
+Plug 'mileszs/ack.vim'
 " Async completion
 " if has('nvim')
 "    Plug 'Shougo/vimproc.vim', {'do' : 'make'}
@@ -32,7 +40,7 @@ Plug 'wsdjeg/vim-todo' "Todo list
 "      											LANGUAGES 
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plug 'puremourning/vimspector' " debuger for everything
+" Plug 'puremourning/vimspector' " debuger for everything
 Plug 'sheerun/vim-polyglot' "Syntax highlighting for different languages
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' } " Amazing autocomplete/typing support for much languages
 
@@ -54,31 +62,31 @@ Plug 'prettier/vim-prettier', {
     \ 'html',
     \ 'swift' ] } " Good code autoformatting 
 Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx', 'html', 'vue'] } " "
-
+Plug 'w0rp/ale'
 "************************* TYPESCRIPT *************************
-" Plug 'Quramy/tsuquyomi'
-" Plug 'rudism/deoplete-tsuquyomi'
+Plug 'Quramy/tsuquyomi'
+Plug 'rudism/deoplete-tsuquyomi'
 "***************************ANGULAR****************************
-Plug 'curist/vim-angular-template'
-Plug 'burnettk/vim-angular'
-Plug 'iamcco/coc-angular'
+" Plug 'curist/vim-angular-template'
+" Plug 'burnettk/vim-angular'
+" Plug 'iamcco/coc-angular'
 "*************************** VUE JS ***************************
-" Plug 'posva/vim-vue'
-" Plug 'storyn26383/vim-vue'
-" Plug 'leafOfTree/vim-vue-plugin'
+Plug 'posva/vim-vue'
+Plug 'storyn26383/vim-vue'
+Plug 'leafOfTree/vim-vue-plugin'
 " **************************** HTML ****************************
 Plug 'alvan/vim-closetag' " Automatic tag closing
 Plug 'mattn/emmet-vim' " Emmet, fast HTML inserting
 Plug 'digitaltoad/vim-pug' " Pug syntax
 
 "*************************** GOLANG ***************************
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'branch': 'master' } " Golang support
+" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'branch': 'master' } " Golang support
 
 "*************************** PYTHON ***************************
-Plug 'davidhalter/jedi-vim' " Autocomplete/syntax for python
-Plug 'jmcantrell/vim-virtualenv' " User virtualenv for current python interpretor
-Plug 'mitsuhiko/vim-jinja'		" Jinja support for vim
-Plug 'nvie/vim-flake8' " Linter for python code
+" Plug 'davidhalter/jedi-vim' " Autocomplete/syntax for python
+" Plug 'jmcantrell/vim-virtualenv' " User virtualenv for current python interpretor
+" Plug 'mitsuhiko/vim-jinja'		" Jinja support for vim
+" Plug 'nvie/vim-flake8' " Linter for python code
 "*************************** DEVOPS ***************************
 Plug 'chr4/nginx.vim' " Nginx hightlighting
 
