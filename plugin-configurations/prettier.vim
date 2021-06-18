@@ -1,4 +1,4 @@
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.py PrettierAsync
+autocmd BufWritePre *.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.py PrettierAsync
 autocmd FileType typescript setlocal completeopt-=menu
 
 let g:prettier#autoformat = 1
