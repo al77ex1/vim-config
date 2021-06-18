@@ -1,3 +1,6 @@
+This is a fork from the config made by the author https://github.com/Artawower
+
+
 # My vim configs
 
 
