@@ -37,7 +37,7 @@ For correct working, after `:PlugInstall` need init COC config
 
 ```bash 
 cd ~/.config
-git clone https://github.com/Artawower/vim-configs.git
+git clone https://github.com/al77ex1/vim-config.git
 cp ~/.config/vim/.vimrc ~/.vimrc
 ```
 
