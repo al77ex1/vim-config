@@ -1,6 +1,5 @@
 source ~/.config/vim/plugin-configurations/airline.vim
 source ~/.config/vim/plugin-configurations/ale.vim
-source ~/.config/vim/plugin-configurations/auto-save.vim
 source ~/.config/vim/plugin-configurations/blamer.vim
 source ~/.config/vim/plugin-configurations/closetag.vim
 source ~/.config/vim/plugin-configurations/coc.vim

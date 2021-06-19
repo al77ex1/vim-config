@@ -25,7 +25,6 @@ Plug 'kshenoy/vim-signature' " Hightlight and visualisation for marks
 Plug 'wsdjeg/vim-todo' "Todo list
 Plug 'vim-scripts/mru.vim'
 Plug 'easymotion/vim-easymotion'
-Plug 'vim-scripts/vim-auto-save'
 Plug 'jiangmiao/auto-pairs'
 Plug 'valloric/MatchTagAlways'
 Plug 'mileszs/ack.vim'
