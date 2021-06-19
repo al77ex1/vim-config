@@ -60,3 +60,5 @@ set colorcolumn=120
 " syntax sync minlines=256
 
 let g:python3_host_prog = "/usr/local/bin/python3" " Path for python
+
+:setlocal spell spelllang=ru_yo,en_us
