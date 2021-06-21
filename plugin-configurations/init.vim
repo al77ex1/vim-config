@@ -9,7 +9,7 @@ source ~/.config/vim/plugin-configurations/gitgutter.vim
 source ~/.config/vim/plugin-configurations/golang.vim
 source ~/.config/vim/plugin-configurations/indent-line.vim
 source ~/.config/vim/plugin-configurations/jedi.vim
-source ~/.config/vim/plugin-configurations/matchTagAlways.vim
+source ~/.config/vim/plugin-configurations/nerdtree.vim
 source ~/.config/vim/plugin-configurations/node-inspect.vim
 source ~/.config/vim/plugin-configurations/polyglot.vim
 source ~/.config/vim/plugin-configurations/prettier.vim

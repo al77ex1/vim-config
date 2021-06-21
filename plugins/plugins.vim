@@ -26,7 +26,7 @@ Plug 'wsdjeg/vim-todo' "Todo list
 Plug 'vim-scripts/mru.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'jiangmiao/auto-pairs'
-Plug 'valloric/MatchTagAlways'
+" Plug 'valloric/MatchTagAlways'
 Plug 'mileszs/ack.vim'
 " Async completion
 " if has('nvim')
