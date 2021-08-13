@@ -42,7 +42,10 @@ For correct working, after `:PlugInstall` need init COC config
 cd ~/.config
 git clone https://github.com/al77ex1/vim-config.git
 cp ~/.config/vim/.vimrc ~/.vimrc
-cp ~/.config/vim/spell ~/.vim/slell
+```
+rename folder `vim-config` to `vim`
+```
+cp ~/.config/vim/spell ~/.vim/spell
 ```
 
 install font `Ligamonacop Regular Nerd Font.ttf` and select it in terminal
