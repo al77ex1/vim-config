@@ -41,9 +41,7 @@ For correct working, after `:PlugInstall` need init COC config
 ```bash 
 cd ~/.config
 git clone https://github.com/al77ex1/vim-config.git
-```
-rename folder `vim-config` to `vim`
-```
+mv ~/.config/vim-config ~/.config/vim
 cp ~/.config/vim/.vimrc ~/.vimrc
 mkdir ~/.vim/
 cp -r ~/.config/vim/spell ~/.vim/spell
