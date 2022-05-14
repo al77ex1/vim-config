@@ -15,7 +15,7 @@ set noswapfile                                  " Do not create swp file
 set cursorline                                  " highlight current line
 set laststatus=2                                " Airline
 " set backspace=indent,eol,start                  " Backspace for dummies
-set ignorecase                                  " Case insensitive search
+" set ignorecase                                  " Case insensitive search
 set smartcase                                   " Case sensitive when uc present
 set wildmenu                                    " Show list instead of just completing
 set wildmode=list:longest,full                  " Command <Tab> completion, list matches, then longest common part, then all.
@@ -70,3 +70,5 @@ if &term =~ '^xterm'
   " insert mode
   let &t_SI .= "\<Esc>[6 q"
 endif
+
+set clipboard=unnamedplus
