@@ -17,5 +17,6 @@ source ~/.config/vim/plugin-configurations/rhubarb.vim
 source ~/.config/vim/plugin-configurations/snippets.vim
 source ~/.config/vim/plugin-configurations/themes.vim
 source ~/.config/vim/plugin-configurations/vim-signratures.vim
+source ~/.config/vim/plugin-configurations/camelcasemotion.vim
 
 

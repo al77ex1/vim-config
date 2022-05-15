@@ -28,9 +28,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'jiangmiao/auto-pairs'
 " Plug 'valloric/MatchTagAlways'
 Plug 'mileszs/ack.vim'
-
 Plug 'bkad/CamelCaseMotion' " This script defines motions similar to w, b, e which do not move word-wise (forward/backward), but Camel-wise; i.e. to word boundaries and uppercase letters. 
-let g:camelcasemotion_key = '<leader>'
 
 " Async completion
 " if has('nvim')
