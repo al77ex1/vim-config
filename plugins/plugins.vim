@@ -16,7 +16,7 @@ Plug 'vim-airline/vim-airline' " Navbar with usefull information (git/formatting
 Plug 'tomtom/tcomment_vim' " Fast comment current line or block
 Plug 'Yggdroot/indentLine' " Hightlighting for indents
 Plug 'tmhedberg/SimpylFold' " Simple folding blocks of code
-" Plug 'SirVer/ultisnips' " Snippets
+Plug 'SirVer/ultisnips' " Snippets
 Plug 'honza/vim-snippets' " snipets engine
 Plug 'wakatime/vim-wakatime' " Time checker for productivity increasing ;)
 Plug 'frazrepo/vim-rainbow' " Different color highlighting for brackets
