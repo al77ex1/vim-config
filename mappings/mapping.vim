@@ -42,7 +42,7 @@ autocmd FileType go          nnoremap <buffer> <F6> :GoDebugNext<CR>
 autocmd FileType go          nnoremap <buffer> <F7> :GoDebugContinue<CR>
 
 " Git 
-noremap gs <Esc> :Gstatus<CR> " Get git status
+noremap gs <Esc> :Git<CR> " Get git status
 noremap gl <Esc> :Gdiffsplit \| HEAD~1<CR> " Split git info for compare last commit
 
 
@@ -67,9 +67,6 @@ menu Encoding.Read.windows-1251<Tab><F7> :e ++enc=cp1251<CR>
 menu Encoding.Read.koi8-r<Tab><F7> :e ++enc=koi8-r<CR>
 menu Encoding.Read.cp866<Tab><F7> :e ++enc=cp866<CR>
 map <F7> :emenu Encoding.Read.<TAB>
-
-" Open history of file
-nnoremap <S-F5> :UndotreeToggle<cr>
 
 " History last of opened files
 nnoremap <leader>o :MRU<CR>
@@ -172,7 +169,7 @@ nmap cll yiwocll<Esc>p
 " Save file
 nnoremap <F2> :w<CR>
 
-" Save two files of two windows
+" Compare two files of two windows
 nnoremap <leader>dt :diffthis<CR>
 nnoremap <leader>do :diffoff<CR>
 nnoremap <leader>du :diffupdate<CR>
