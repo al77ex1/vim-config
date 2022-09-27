@@ -9,10 +9,6 @@ noremap <silent> <C-S> :update<CR>
 vnoremap <silent> <C-S> <C-C>:update<CR>
 inoremap <silent> <C-S> <C-O>:update<CR>
 
-" Tab switching
-map gn :bn<cr>
-map gp :bp<cr>
-map gc :bd<cr>
 " Close buffer, preserve window
 map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
 
@@ -25,6 +21,12 @@ noremap <Leader>y "*y
 noremap <Leader>p "*p
 noremap <Leader>Y "+y
 noremap <Leader>P "+p
+
+" Moving lines
+nnoremap <C-j> :m .+1<CR>==
+nnoremap <C-k> :m .-2<CR>==
+vnoremap <C-j> :m '>+1<CR>gv=gv
+vnoremap <C-k> :m '<-2<CR>gv=gv
 
 " MAC os binding for NERDTree
 nnoremap † <Esc> :NERDTreeToggle<CR> " ALT+T - toggle file
@@ -48,11 +50,9 @@ noremap gl <Esc> :Gdiffsplit \| HEAD~1<CR> " Split git info for compare last com
 
 
 " nerdtree/vim-nerdtree-tabs
-nnoremap <leader>[ :NERDTreeMirrorToggle<CR>
+nnoremap <leader>nn :NERDTreeToggle<CR>
+nnoremap <leader>nf :NERDTreeFind<CR>
 nnoremap <leader>t :tabnew<CR>
-
-nnoremap <leader>[[ :MerginalToggle<CR>
-nnoremap <leader>]] :MerginalClose<CR>
 
 " ack.vim
 cnoreabbrev Ack Ack!
